@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "url": "https://www.abbvie.com/sustainability.html",
+  "path": "sustainability",
+  "timestamp": "2026-02-23T10:52:34.712Z",
+  "title": "Sustainability | AbbVie",
+  "template": "sustainability-page",
+  "blocks": [
+    "hero",
+    "hero",
+    "columns",
+    "columns"
+  ]
+}

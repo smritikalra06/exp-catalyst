@@ -1,0 +1,88 @@
+{
+  "templates": [
+    {
+      "name": "sustainability-page",
+      "urls": [
+        "https://www.abbvie.com/sustainability.html"
+      ],
+      "description": "Sustainability landing page with overview of AbbVie ESG initiatives",
+      "blocks": [
+        {
+          "name": "hero",
+          "instances": [
+            ".container.large-radius.cmp-container-full-width.height-tall",
+            ".container.overlap-predecessor"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            ".grid.cmp-grid-custom:first-of-type .grid-row"
+          ]
+        },
+        {
+          "name": "columns",
+          "instances": [
+            ".grid.cmp-grid-custom:nth-of-type(2) .grid-row",
+            "#container-f223873380 .grid-row",
+            "#container-dabaa83ad0 .grid-row"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero Section",
+          "selector": [
+            ".container.large-radius.cmp-container-full-width.height-tall",
+            ".container.overlap-predecessor"
+          ],
+          "style": null,
+          "blocks": ["hero"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-cards",
+          "name": "Initiative Cards Section",
+          "selector": [
+            ".teaser.teaser__internal-link",
+            ".grid.cmp-grid-custom:first-of-type"
+          ],
+          "style": null,
+          "blocks": ["cards"],
+          "defaultContent": [
+            ".cmp-teaser__title",
+            ".cmp-teaser__description"
+          ]
+        },
+        {
+          "id": "section-3-stats",
+          "name": "Impact Stats Section",
+          "selector": ".grid.cmp-grid-custom:nth-of-type(2)",
+          "style": null,
+          "blocks": ["columns"],
+          "defaultContent": [
+            "#title-3e00a156e8 .cmp-title__text",
+            "#text-a73ee4a8c1 .cmp-text"
+          ]
+        },
+        {
+          "id": "section-4-video-story",
+          "name": "Video Story Section",
+          "selector": "#container-f223873380",
+          "style": null,
+          "blocks": ["columns"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5-principles",
+          "name": "Principles CTA Section",
+          "selector": "#container-dabaa83ad0",
+          "style": "light-blue",
+          "blocks": ["columns"],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

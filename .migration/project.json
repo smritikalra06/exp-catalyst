@@ -1,0 +1,5 @@
+{
+  "type": "xwalk",
+  "libraryUrl": "https://main--sta-xwalk-boilerplate--aemysites.aem.page/tools/sidekick/library.json",
+  "contentSource": "https://author.dev.abbvie.adobecqms.net/libs/granite/core/content/login.html"
+}
