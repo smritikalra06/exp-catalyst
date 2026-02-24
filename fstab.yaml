@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://https://author-p160552-e1944799.adobeaemcloud.com/bin/franklin.delivery/smritikalra06/exp-catalyst/main"
-    type: "markup"
+  url: "https://author-p160552-e1944799.adobeaemcloud.com/bin/franklin.delivery/nishant-adobe/abbvie-xmod/main"
+  type: "markup"
     suffix: ".html"
