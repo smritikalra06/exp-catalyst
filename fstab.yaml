@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author.dev.abbvie.adobecqms.net/libs/granite/core/content/login.html"
+    url: "https://author-p157365-e1665873.adobeaemcloud.com/ui#/aem/sites.html/content"
     type: "markup"
     suffix: ".html"
